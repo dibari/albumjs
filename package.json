@@ -1,0 +1,28 @@
+{
+  "name": "albumjs",
+  "version": "0.0.1",
+  "description": "Cloud photo management system",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://dibari@github.com/dibari/albumjs.git"
+  },
+  "keywords": [
+    "photo",
+    "cloud"
+  ],
+  "author": "Eric Di Bari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dibari/albumjs/issues"
+  },
+  "homepage": "https://github.com/dibari/albumjs#readme",
+  "dependencies": {
+    "bunyan": "^1.5.1",
+    "moment": "^2.10.6",
+    "restify": "^4.0.3"
+  }
+}

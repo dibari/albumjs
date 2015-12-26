@@ -1,0 +1,16 @@
+{
+	"name"					: "albumjs",
+	"script"				: "app/index.js",
+	"instances"				: 1,
+	"min_uptime"			: "200s",
+	"max_restarts"			: 4,
+	"max_memory_restart"	: "300M",
+	"watch"					: true,
+	"merge_logs"			: false,
+	"exec_interpreter"		: "node",
+	"exec_mode"				: "fork",
+	"autorestart"			: true,
+	"env"					: {
+		"NODE_ENV": "development"
+	}
+}

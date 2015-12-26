@@ -1,0 +1,9 @@
+module.exports = {
+	deployLocation		: '/var/albumjs',
+	ownerUser			: 'node',
+	ownerGroup			: 'node',
+	url					: 'https://www.albumjs.com',
+	env					: 'dev', // (dev|test|prod)
+	host				: 'localhost',
+	port				: 8888
+};
