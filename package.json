@@ -23,7 +23,15 @@
   "dependencies": {
     "apidoc": "^0.14.0",
     "bunyan": "^1.5.1",
+    "gulp": "^3.9.0",
+    "gulp-shell": "^0.5.1",
     "moment": "^2.10.6",
-    "restify": "^4.0.3"
+    "restify": "^4.0.3",
+    "run-sequence": "^1.1.5"
+  },
+  "devDependencies": {
+    "frisby": "git+https://git@github.com/selvera/frisby.git",
+    "gulp-apidoc": "^0.1.5",
+    "gulp-jshint": "^1.11.2"
   }
 }

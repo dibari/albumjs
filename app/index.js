@@ -20,6 +20,7 @@
 			logging		: require('./library/logging.js')
 		},
 		route = {
+			image		: require('./route/image.js'),
 			system		: require('./route/system.js')
 		};
 
@@ -42,7 +43,7 @@
 
 			}
 
-	   /**
+	  /**
 		*	Pre-request handling
 		*/
 
@@ -55,6 +56,7 @@
 		*	Routes
 		*/
 
+			route.image.init(server);
 			route.system.init(server);
 
 	   /**
