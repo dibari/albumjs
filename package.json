@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/dibari/albumjs#readme",
   "dependencies": {
+    "apidoc": "^0.14.0",
     "bunyan": "^1.5.1",
     "moment": "^2.10.6",
     "restify": "^4.0.3"
