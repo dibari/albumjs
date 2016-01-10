@@ -44,11 +44,15 @@ var gulp = require('gulp'),
 		*/
 		gulp.task('test', function(callback) {
 			runSequence(
+				'testImage',
 				'testSystem',
 				callback
 			);
 		});
 
+			gulp.task('testImage', shell.task([
+				'jasmine-node spec/image_spec.js'
+			]));
 			gulp.task('testSystem', shell.task([
 				'jasmine-node spec/system_spec.js'
 			]));

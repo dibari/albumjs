@@ -5,7 +5,7 @@
 	"use strict";
 
 	var controller = {
-			system		: require('../controller/image.js')
+			image		: require('../controller/image.js')
 		};
 
 	module.exports = {
